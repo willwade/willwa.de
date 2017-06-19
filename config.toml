@@ -1,0 +1,84 @@
+# Site settings
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "Will Wade"
+theme = "hugo-smpl-theme"
+
+# Enter your tracking code to enable Google analytics
+googleAnalytics = "UA-XXXXXXXX-1"
+
+[params]
+  # You can use Markdown for urls [text](//domain.tld/source)
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons.
+
+  # To provide more meta data for search engines feel free to add a few information.
+  # This lines will be inserted as meta tags.
+  name = "Will Wade"
+  description = "Many Fingers in Many Pies"
+
+  # Background
+  [params.background]
+    image = "assets/images/16132340645_49ffcab88f_k.jpg"
+
+    # Enable and set background fade speed
+    [params.background.fade]
+      enable = true
+      speed = 500
+
+  # Logo section
+  [params.logo]
+    enable = false
+    image = "assets/img/logo.png"
+    alt = "BlackTie.co"
+    width = "100"
+
+  # Header section
+  [params.header]
+    enable = true
+    title = "Will Wade.<br>(In that order)."
+
+  # Quote section
+  [params.quote]
+    enable = true
+    text = "Occupational Therapist working in Assistive Technology, Coder of sorts, Photographer sometimes."
+
+  # Social icons section
+  [params.social_icons]
+    enable = true
+
+  [[params.social]]
+    title = "Projects"
+    icon = "fa-github"
+    link = "http://github.com/willwade"
+
+  [[params.social]]
+    title = "Blog"
+    icon = "fa-comment"
+    link = "http://blog.willwa.de"
+
+  [[params.social]]
+    title = "Twitter"
+    icon = "fa-twitter"
+    link = "http://twitter.com/willwade"
+
+  [[params.social]]
+    title = "Linkedin"
+    icon = "fa-linkedin"
+    link = "hhttps://www.linkedin.com/in/willwade/"
+
+  [[params.social]]
+    title = "Flickr"
+    icon = "fa-flickr"
+    link = "http://flickr.com/photos/willwade/"
+
+  [[params.social]]
+    title = "Instagram"
+    icon = "fa-instagram"
+    link = "http://freelance.postach.io"
+
+  [[params.social]]
+    title = "Email Me!"
+    icon = "fa-envelope"
+    link = "mailto:willwade@gmail.com"
